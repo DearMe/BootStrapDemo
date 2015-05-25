@@ -1,16 +1,124 @@
 h1,h2,p,a,button{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.onepage{
+.firstpage{
     height: 750px;
 }
-.onepage-bg{
+.firstpage-bg{
     height: 800px;
     width: 100%;
     position: absolute;
     background-position: center center;
     background-size: cover;
 }
-#onepagebg{
-    background-image: url("Desert.jpg");
+#firstpagebg{
+    background-image: url("img/Desert.jpg");
 }
+.headhicontent{
+    margin-top: 150px;
+    line-height: 75px;
+}
+
+.title-text{
+    margin-left: 50px;
+}
+
+.headfontsize h1{
+    font-size: 50pt;
+    color: #ffffff;
+}
+.headfontsize p{
+    color: #ffffff;
+}
+
+.secondpage{
+    padding: 2px 0 0 2px;
+    height: auto;
+    background-image: url(img/united.jpg);
+    position: relative;
+}
+
+.secondpage-text{
+    width: 100%;
+    text-align: center;
+}
+
+.secondpage-text-h1{
+    margin-left: 120px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding: 20px 0 0 0;
+}
+
+.secondpage-text-h1 img{
+    width: 120px;
+    margin-top: -20px;
+}
+
+.secondpage .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.secondpage-air{
+    float: left;
+    background: #ffffff;
+    padding: 0 2px 2px 0;
+    position: relative;
+    overflow: hidden;
+}
+.secondpage-air >a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.classicon h3{
+    margin-top: 120px;
+    color: #d1e973;
+}
+
+.classicon h1{
+    color: #fff5e1;
+}
+
+.classicon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    opacity: 0;
+}
+
+.classicon:hover{
+    background: #1eb450;
+    opacity: 0.9;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+
+.secondpagebtn{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.secondpagebtn .btn-lg{
+    font-size: 25px;
+}
+
+#secondpage-easy{
+    margin: 50px 0;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
