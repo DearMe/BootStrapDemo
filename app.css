@@ -115,6 +115,100 @@ h1,h2,p,a,button{
     margin-bottom: 100px;
 }
 
+.thirdpage{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+
+.thirdpage-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#thirdpagebg{
+    background-image: url("img/Lighthouse.jpg");
+}
+
+.thirdpagecontent{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thirdpagetext{
+    margin-top: 100px;
+}
+
+.thirdpagetext p{
+    margin-top: 20px;
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.thirdpagebtncontent{
+    margin-top: 450px;
+    font-size: 25px;
+}
+
+.forthpage{
+    height: 700px;
+    background-image: url("img/Jellyfish.jpg");
+    margin-top: 800px;
+}
+
+.coursexingqing-text{
+    color: #ffffff;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.coursexingqing-text p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.forthpage .container .carousel{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
